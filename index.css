@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    position: sticky;
+    top: 0;
+    
+}
+.container .row{
+    
+}
+.container .row .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+.container .row .navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.container .row .navbar ul li{
+    padding: 10px 25px;
+  
+}
+.container .row .navbar ul li:hover{
+    color: rgb(69, 18, 117);
+    background-color: cyan;
+    border: 2px solid black;
+    border-radius: 30px;
+
+  
+}
+.container .row .navbar .nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#between #home{
+    height: 500px;
+    margin: 30px 15px;
+}
+#between #home #column{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    
+}
+
+#between #home #column .row{  
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#between #home #column #leftcolumn{  
+    background-image: url(https://technext.github.io/hexashop/assets/images/left-banner-image.jpg);
+    margin: 10px;
+}
+#between #home #column #leftcolumn a{
+    color: white;
+    border: 2px solid white; 
+    padding: 5px; 
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+#between #home #column #leftcolumn h1{
+    color: rgb(248, 242, 242);
+    font-size: 52px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+#between #home #column #leftcolumn a:hover{
+    background-color: white;
+    color: black;  
+}
+#between #home #column #rightcolumn #box2{  
+    background-image: url(https://technext.github.io/hexashop/assets/images/baner-right-image-01.jpg);
+    margin: 10px;
+}
+#between #home #column #rightcolumn #box2 a:hover + div {     
+    display:block;
+}
+
+#between #home #column #rightcolumn #box3{  
+    background-image: url(https://technext.github.io/hexashop/assets/images/baner-right-image-02.jpg);
+    margin: 10px;
+}
+#between #home #column #rightcolumn #box3 a:hover + div {     
+    display:block;
+}
+
+#between #home #column #rightcolumn #box4{  
+    background-image: url(https://technext.github.io/hexashop/assets/images/baner-right-image-03.jpg);
+    margin: 10px;
+}
+#between #home #column #rightcolumn #box4 a:hover + div {     
+    display:block;
+}
+
+#between #home #column #rightcolumn #box5{  
+    background-image: url(https://technext.github.io/hexashop/assets/images/baner-right-image-04.jpg);
+    margin: 10px;
+}
+#between #home #column #rightcolumn #box5 a:hover + div {     
+    display:block;
+}
+#between #home #column #rightcolumn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+}
+
+.center{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.span{
+    color: rgb(248, 242, 242);
+    font-family: cursive;
+    margin-bottom: 20px;
+    display: block;
+}
+.hover{
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+.hoverdiv{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+    height: 100px;
+    display: none;
+
+}
+.foot{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+}
+#Mens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#mencontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    width: 100%;
+}
+#mencontainer .box{
+    padding: 15px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+#mencontainer .box:hover{
+    transform: rotateY(180deg);   
+}
+.h1{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin-top: 15px;
+}
+.menspan{
+    font-family: cursive;
+    padding: 15px;
+
+}
+.class{
+    box-shadow: 10px 10px 5px grey;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#contact form{
+    width:30%
+}
+#contacts h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin-top: 15px;
+}
+#contact input,
+#contact textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-size: 1.2rem;
+
+}
+#contact label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 3px;
+
+}
